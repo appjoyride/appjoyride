@@ -21,7 +21,7 @@ locations.croydon = [51.37365, -0.10119];
 locations.blackfriars = [51.50990, -0.10436];
 locations.bloomsbury = [51.52453, -0.13390];
 locations.bank = [51.51337, -0.08898];
-
+locations.towerhill = [51.5080189, -0.0747825];
 var args;
 
 function init()
