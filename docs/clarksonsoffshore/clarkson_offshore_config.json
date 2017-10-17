@@ -1,5 +1,5 @@
 {
-  "appconfig": {
+  "appsettings": {
     "activationcode": "1111", 
     "version": "1", 
     "emergencynumber": "+442076455032"
@@ -40,7 +40,7 @@
         "office": "Aberdeen Offshore", 
         "Mobile": "+447984582511", 
         "Work": "+441224256668", 
-        "Extension": "", 
+        "ext": "", 
         "desk": "", 
         "email2": "offshore.aberdeen@clarksons.com", 
         "email": "adam.brown@clarksons.com"
@@ -52,7 +52,7 @@
         "office": "Oslo", 
         "Mobile": "+4790855653", 
         "Work": "+4723112794", 
-        "Extension": "62794", 
+        "ext": "62794", 
         "desk": "Field Development", 
         "email2": "erik.arthur@clarksons.com", 
         "email": "erik.arthur@clarksons.com"
