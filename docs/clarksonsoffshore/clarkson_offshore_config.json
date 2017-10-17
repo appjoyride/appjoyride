@@ -1,0 +1,101 @@
+{
+  "appconfig": {
+    "activationcode": "1111", 
+    "version": "1", 
+    "emergencynumber": "+442076455032"
+  }, 
+  "comments": "Versionsing - just add key to array so v1/v2 still work", 
+  "contact": {
+    "address": [
+      {
+        "rowlabel": "Address", 
+        "rowvalue": "Commodity Quay"
+      }, 
+      {
+        "rowlabel": "Address", 
+        "rowvalue": "St Katharine Docks"
+      }, 
+      {
+        "rowlabel": "City", 
+        "rowvalue": "London"
+      }, 
+      {
+        "rowlabel": "Country", 
+        "rowvalue": "United Kingdom"
+      }, 
+      {
+        "rowlabel": "Country", 
+        "rowvalue": "E1W 1BF"
+      }
+    ], 
+    "name": "Clarksons Platou", 
+    "telephone": "00442073340000"
+  }, 
+  "team": {
+    "employees": [
+      {
+        "division": "Offshore", 
+        "code": "ABR", 
+        "name": "Adam Brown", 
+        "office": "Aberdeen Offshore", 
+        "Mobile": "+447984582511", 
+        "Work": "+441224256668", 
+        "Extension": "", 
+        "desk": "", 
+        "email2": "offshore.aberdeen@clarksons.com", 
+        "email": "adam.brown@clarksons.com"
+      }, 
+      {
+        "division": "Offshore", 
+        "code": "ERA", 
+        "name": "Erik Arthur", 
+        "office": "Oslo", 
+        "Mobile": "+4790855653", 
+        "Work": "+4723112794", 
+        "Extension": "62794", 
+        "desk": "Field Development", 
+        "email2": "erik.arthur@clarksons.com", 
+        "email": "erik.arthur@clarksons.com"
+      }
+    ], 
+    "name": "Offshore Team Profiles"
+  }, 
+  "rota": {
+    "rotacolumnnames": [
+      "name", 
+      "office", 
+      "oncall", 
+      "number"
+    ], 
+    "rotarowdata": [
+      [
+        "Erik Arthur", 
+        "Oslo", 
+        "9am - 6pm", 
+        "+4723112794"
+      ], 
+      [
+        "Adam Brown", 
+        "Aberdeen Offshore", 
+        "9am - 6pm", 
+        "+441224256668"
+      ]
+    ], 
+    "name": "Duty Rota"
+  }, 
+  "pdfs": {
+    "name": "Offshore Monthly", 
+    "issues": [
+      {
+        "issuetitle": "Offshore Monthly", 
+        "issuedate": "offshoremonthlyoct2017.pdf", 
+        "issuefile": "Oct 2017"
+      }, 
+      {
+        "issuetitle": "Offshore Monthly", 
+        "issuedate": "offshoremonthlysep2017.pdf", 
+        "issuefile": "Sep 2017"
+      }
+    ]
+  }
+}
