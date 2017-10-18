@@ -1,116 +1,116 @@
 {
-  "appsettings": {
-    "activationcode": "1111", 
-    "version": "1", 
-    "emergencynumber": "+442076455032"
-  }, 
-  "comments": "Versionsing - just add key to array so v1/v2 still work", 
-  "contact": {
-  	"name": [
+   "appsettings":{
+      "activationcode":"1111",
+      "version":"1",
+      "emergencynumber":"++44 20 7645 5032",
+      "emergencyemail":"transport@clarksons.com"
+   },
+   "screens":[
       {
-        "rowlabel": "Name", 
-        "rowvalue": "Clarksons Platou"
-      }
-    ], 
-    "contact": [
-      {
-        "rowlabel": "Telephone", 
-        "rowvalue": "00442073340000"
+         "screenname":"Company",
+         "screenshowinapp":true,
+         "screenshowinapp_comment":"if false, screen is hidden from all users",
+         "screentype":"TABLE",
+         "tablesections":[
+            {
+               "tablesectiontitle":"Company",
+               "tablesectionrows":[
+                  {
+                     "rowlabel":"Name",
+                     "rowvalue":"Clarksons Platou",
+                     "rowtapaction":"COPY"
+                  }
+               ]
+            },
+            {
+               "tablesectiontitle":"Contact",
+               "tablesectionrows":[
+                  {
+                     "rowlabel":"Telephone",
+                     "rowvalue":"00442073340000",
+                     "rowtapaction":"COPY"
+                  },
+                  {
+                     "rowlabel":"Email",
+                     "rowvalue":"london@clarksons.com",
+                     "rowtapaction":"COPY"
+                  }
+               ]
+            },
+            {
+               "tablesectiontitle":"Address",
+               "tablesectionrows":[
+                  {
+                     "rowlabel":"Address",
+                     "rowvalue":"Commodity Quay",
+                     "rowtapaction":"COPY"
+                  },
+                  {
+                     "rowlabel":"Address",
+                     "rowvalue":"St Katharine Docks",
+                     "rowtapaction":"COPY"
+                  },
+                  {
+                     "rowlabel":"City",
+                     "rowvalue":"London",
+                     "rowtapaction":"COPY"
+                  },
+                  {
+                     "rowlabel":"Country",
+                     "rowvalue":"United Kingdom",
+                     "rowtapaction":"COPY"
+                  },
+                  {
+                     "rowlabel":"Country",
+                     "rowvalue":"E1W 1BF",
+                     "rowtapaction":"COPY"
+                  }
+               ]
+            }
+         ]
       },
       {
-        "rowlabel": "Email", 
-        "rowvalue": "london@clarksons.com"
+         "screenname":"About",
+         "screentype":"WEBPAGE",
+         "screenshowinapp":true,
+         "screenshowinapp_comment":"if false, screen is hidden from all users",
+         "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
+         "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser"
+      },
+      {
+         "screenname":"Contacts",
+         "screentype":"WEBPAGE",
+         "screenshowinapp":true,
+         "screenshowinapp_comment":"if false, screen is hidden from all users",
+         "url":"http://www.clarksons.com/contacts/?type=people&service=18692",
+         "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser"
+      },
+      {
+         "screenname":"Duty Rota",
+         "screentype":"WEBPAGE",
+         "screenshowinapp":true,
+         "screenshowinapp_comment":"if false, screen is hidden from all users",
+         "url":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/rota/rota.xlsx",
+         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser"
+      },
+      {
+         "screenname":"PDFs",
+         "screentype":"TABLE",
+         "screenshowinapp":true,
+         "screenshowinapp_comment":"if false, screen is hidden from all users",
+         "tablesections":[
+            {
+               "tablesectiontitle":"TOWAGE, SALVAGE & TRANSPORTATION",
+               "tablesectionrows":[
+                  {
+                     "rowlabel":"Introduction",
+                     "rowvalue":"",
+                     "rowtapaction":"OPENWEBPAGE",
+                     "rowtapurl":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/pdfs/tstintro.pdf"
+                  }
+               ]
+            }
+         ]
       }
-    ],
-    "address": [
-      {
-        "rowlabel": "Address", 
-        "rowvalue": "Commodity Quay"
-      }, 
-      {
-        "rowlabel": "Address", 
-        "rowvalue": "St Katharine Docks"
-      }, 
-      {
-        "rowlabel": "City", 
-        "rowvalue": "London"
-      }, 
-      {
-        "rowlabel": "Country", 
-        "rowvalue": "United Kingdom"
-      }, 
-      {
-        "rowlabel": "Country", 
-        "rowvalue": "E1W 1BF"
-      }
-    ]
- 
-  }, 
-  "team": {
-    "employees": [
-      {
-        "division": "Offshore", 
-        "code": "ABR", 
-        "name": "Adam Brown", 
-        "office": "Aberdeen Offshore", 
-        "Mobile": "+447984582511", 
-        "Work": "+441224256668", 
-        "ext": "", 
-        "desk": "", 
-        "email2": "offshore.aberdeen@clarksons.com", 
-        "email": "adam.brown@clarksons.com"
-      }, 
-      {
-        "division": "Offshore", 
-        "code": "ERA", 
-        "name": "Erik Arthur", 
-        "office": "Oslo", 
-        "Mobile": "+4790855653", 
-        "Work": "+4723112794", 
-        "ext": "62794", 
-        "desk": "Field Development", 
-        "email2": "erik.arthur@clarksons.com", 
-        "email": "erik.arthur@clarksons.com"
-      }
-    ], 
-    "name": "Offshore Team Profiles"
-  }, 
-  "rota": {
-    "rotacolumnnames": [
-      "name", 
-      "office", 
-      "oncall", 
-      "number"
-    ], 
-    "rotarowdata": [
-      [
-        "Erik Arthur", 
-        "Oslo", 
-        "9am - 6pm", 
-        "+4723112794"
-      ], 
-      [
-        "Adam Brown", 
-        "Aberdeen Offshore", 
-        "9am - 6pm", 
-        "+441224256668"
-      ]
-    ], 
-    "name": "Duty Rota"
-  }, 
-  "pdfs": {
-    "name": "Offshore Monthly", 
-    "issues": [
-      {
-        "issuetitle": "Offshore Monthly", 
-        "issuedate": "offshoremonthlyoct2017.pdf", 
-        "issuefile": "Oct 2017"
-      }, 
-      {
-        "issuetitle": "Offshore Monthly", 
-        "issuedate": "offshoremonthlysep2017.pdf", 
-        "issuefile": "Sep 2017"
-      }
-    ]
-  }
+   ]
 }
