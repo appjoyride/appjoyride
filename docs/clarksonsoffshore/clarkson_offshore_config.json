@@ -1,11 +1,27 @@
 {
   "appsettings": {
-    "activationcode": "1111",  
+    "activationcode": "1111", 
     "version": "1", 
     "emergencynumber": "+442076455032"
   }, 
   "comments": "Versionsing - just add key to array so v1/v2 still work", 
   "contact": {
+  	"name": [
+      {
+        "rowlabel": "Name", 
+        "rowvalue": "Clarksons Platou"
+      }
+    ], 
+    "contact": [
+      {
+        "rowlabel": "Telephone", 
+        "rowvalue": "00442073340000"
+      },
+      {
+        "rowlabel": "Email", 
+        "rowvalue": "london@clarksons.com"
+      }
+    ],
     "address": [
       {
         "rowlabel": "Address", 
@@ -27,9 +43,8 @@
         "rowlabel": "Country", 
         "rowvalue": "E1W 1BF"
       }
-    ], 
-    "name": "Clarksons Platou", 
-    "telephone": "00442073340000"
+    ]
+ 
   }, 
   "team": {
     "employees": [
