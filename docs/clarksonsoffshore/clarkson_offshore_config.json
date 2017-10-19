@@ -89,7 +89,7 @@
          "screenname":"Duty Rota",
          "screentype":"WEBPAGE",
          "screenshowinapp":true,
-         "screenshowinapp_comment":"if false, screen is hidden from all users",
+         "screenshowinapp_comment":"if false, screen is hidden from all users.",
          "url":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/rota/rota.xlsx",
          "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser"
       },
