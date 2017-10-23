@@ -55,31 +55,6 @@
           {
             "rowtapaction": "COPY", 
             "rowlabel": "Address", 
-            "rowvalue": "Commodity Quay"
-          }, 
-          {
-            "rowtapaction": "COPY", 
-            "rowlabel": "Address", 
-            "rowvalue": "St Katharine Docks"
-          }, 
-          {
-            "rowtapaction": "COPY", 
-            "rowlabel": "City", 
-            "rowvalue": "London"
-          }, 
-          {
-            "rowtapaction": "COPY", 
-            "rowlabel": "Country", 
-            "rowvalue": "United Kingdom"
-          }, 
-          {
-            "rowtapaction": "COPY", 
-            "rowlabel": "Country", 
-            "rowvalue": "E1W 1BF"
-          }, 
-          {
-            "rowtapaction": "COPY", 
-            "rowlabel": "Address", 
             "rowvalue": "Commodity Quay\rSt Katharine Docks\rLondon\rUnited Kingdom\rE1W 1BF"
           }
         ]
