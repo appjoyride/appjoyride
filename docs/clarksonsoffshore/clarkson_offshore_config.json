@@ -6,15 +6,15 @@
         "emergencynumber": "+442076455032"
     },
     "screens": [
-                "Contacts - Online",
-                "Contacts - In App",
+                "contacts",
+                "contacts online",
                 "company",
                 "about",
                 "rota",
                 "publications"
                 ],
 
-    "Contacts - Online": {
+    "contacts online": {
         "url_instructions": "url : should be all lowercase, no spaces. Test url in real browser",
         "url": "http://www.clarksons.com/contacts/?type=people&service=18692",
         "screentype": "WEBPAGE",
@@ -22,7 +22,7 @@
         "screenshowinapp_comment": "if false, screen is hidden from all users",
         "screenname": "Contacts"
     },
-    "Contacts - In App": {
+    "contacts": {
         "screenshowinapp": true,
         "tablesections": [
                               {
@@ -157,7 +157,7 @@
         "screenname": "Company"
     },
     
-    "About": {
+    "about": {
         "url_instructions": "url : should be all lowercase, no spaces. Test url in real browser",
         "url": "http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
         "screentype": "WEBPAGE",
@@ -165,7 +165,7 @@
         "screenshowinapp_comment": "if false, screen is hidden from all users",
         "screenname": "About"
     },
-    "Company": {
+    "company": {
         "screenshowinapp": true,
         "tablesections": [
                           {
@@ -208,7 +208,7 @@
         "screenshowinapp_comment": "if false, screen is hidden from all users",
         "screenname": "Company"
     },
-    "Publications": {
+    "publications": {
         "screenshowinapp": true,
         "tablesections": [
                           {
