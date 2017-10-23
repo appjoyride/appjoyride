@@ -1,121 +1,126 @@
 {
-   "appsettings":{
-      "activationcode":"1111",
-      "version":"1",
-      "emergencynumber":"++44 20 7645 5032",
-      "emergencyemail":"transport@clarksons.com"
-   },
-   "screens":[
-      "company",
-      "about",
-      "contacts",
-      "rota",
-      "publications"
-   ],
-   "company":{
-      "screenname":"Company",
-      "screenshowinapp":true,
-      "screenshowinapp_comment":"if false, screen is hidden from all users",
-      "screentype":"TABLE",
-      "tablesections":[
-         {
-            "tablesectiontitle":"Company",
-            "tablesectionrows":[
-               {
-                  "rowlabel":"Name",
-                  "rowvalue":"Clarksons Platou",
-                  "rowtapaction":"COPY"
-               }
-            ]
-         },
-         {
-            "tablesectiontitle":"Contact",
-            "tablesectionrows":[
-               {
-                  "rowlabel":"Telephone",
-                  "rowvalue":"00442073340000",
-                  "rowtapaction":"COPY"
-               },
-               {
-                  "rowlabel":"Email",
-                  "rowvalue":"london@clarksons.com",
-                  "rowtapaction":"COPY"
-               }
-            ]
-         },
-         {
-            "tablesectiontitle":"Address",
-            "tablesectionrows":[
-               {
-                  "rowlabel":"Address",
-                  "rowvalue":"Commodity Quay",
-                  "rowtapaction":"COPY"
-               },
-               {
-                  "rowlabel":"Address",
-                  "rowvalue":"St Katharine Docks",
-                  "rowtapaction":"COPY"
-               },
-               {
-                  "rowlabel":"City",
-                  "rowvalue":"London",
-                  "rowtapaction":"COPY"
-               },
-               {
-                  "rowlabel":"Country",
-                  "rowvalue":"United Kingdom",
-                  "rowtapaction":"COPY"
-               },
-               {
-                  "rowlabel":"Country",
-                  "rowvalue":"E1W 1BF",
-                  "rowtapaction":"COPY"
-               }
-            ]
-         }
-      ]
-   },
-   "about":{
-      "screenname":"About",
-      "screentype":"WEBPAGE",
-      "screenshowinapp":true,
-      "screenshowinapp_comment":"if false, screen is hidden from all users",
-      "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
-      "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser"
-   },
-   "contacts":{
-      "screenname":"Contacts",
-      "screentype":"WEBPAGE",
-      "screenshowinapp":true,
-      "screenshowinapp_comment":"if false, screen is hidden from all users",
-      "url":"http://www.clarksons.com/contacts/?type=people&service=18692",
-      "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser"
-   },
-   "rota":{
-      "screenname":"Duty Rota",
-      "screentype":"WEBPAGE",
-      "screenshowinapp":true,
-      "screenshowinapp_comment":"if false, screen is hidden from all users",
-      "url":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/rota/rota.xlsx",
-      "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser"
-   },
-   "publications":{
-      "screenname":"PDFs",
-      "screentype":"TABLE",
-      "screenshowinapp":true,
-      "screenshowinapp_comment":"if false, screen is hidden from all users",
-      "tablesections":[
-         {
-            "tablesectiontitle":"TOWAGE, SALVAGE & TRANSPORTATION",
-            "tablesectionrows":[
-               {
-                  "rowlabel":"Introduction",
-                  "rowvalue":"",
-                  "rowtapaction":"OPENWEBPAGE",
-                  "rowtapurl":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/pdfs/tstintro.pdf"
-               }
-            ]
-         }
-      ]
-   }
+  "about": {
+    "url_instructions": "url : should be all lowercase, no spaces. Test url in real browser", 
+    "url": "http://www.clarksons.com/services/broking/towage,-salvage-transportation/", 
+    "screentype": "WEBPAGE", 
+    "screenshowinapp": true, 
+    "screenshowinapp_comment": "if false, screen is hidden from all users", 
+    "screenname": "About"
+  }, 
+  "contacts": {
+    "url_instructions": "url : should be all lowercase, no spaces. Test url in real browser", 
+    "url": "http://www.clarksons.com/contacts/?type=people&service=18692", 
+    "screentype": "WEBPAGE", 
+    "screenshowinapp": true, 
+    "screenshowinapp_comment": "if false, screen is hidden from all users", 
+    "screenname": "Contacts"
+  }, 
+  "appsettings": {
+    "activationcode": "1111", 
+    "emergencyemail": "transport@clarksons.com", 
+    "version": "1", 
+    "emergencynumber": "+442076455032"
+  }, 
+  "company": {
+    "screenshowinapp": true, 
+    "tablesections": [
+      {
+        "tablesectiontitle": "Company", 
+        "tablesectionrows": [
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Name", 
+            "rowvalue": "Clarksons"
+          }
+        ]
+      }, 
+      {
+        "tablesectiontitle": "Contact", 
+        "tablesectionrows": [
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Telephone", 
+            "rowvalue": "00442073340000"
+          }, 
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Email", 
+            "rowvalue": "london@clarksons.com"
+          }
+        ]
+      }, 
+      {
+        "tablesectiontitle": "Address", 
+        "tablesectionrows": [
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Address", 
+            "rowvalue": "Commodity Quay"
+          }, 
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Address", 
+            "rowvalue": "St Katharine Docks"
+          }, 
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "City", 
+            "rowvalue": "London"
+          }, 
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Country", 
+            "rowvalue": "United Kingdom"
+          }, 
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Country", 
+            "rowvalue": "E1W 1BF"
+          }, 
+          {
+            "rowtapaction": "COPY", 
+            "rowlabel": "Address", 
+            "rowvalue": "Commodity Quay\rSt Katharine Docks\rLondon\rUnited Kingdom\rE1W 1BF"
+          }
+        ]
+      }
+    ], 
+    "screentype": "TABLE", 
+    "screenshowinapp_comment": "if false, screen is hidden from all users", 
+    "screenname": "Company"
+  }, 
+  "screens": [
+    "company", 
+    "about", 
+    "contacts", 
+    "rota", 
+    "publications"
+  ], 
+  "publications": {
+    "screenshowinapp": true, 
+    "tablesections": [
+      {
+        "tablesectiontitle": "TOWAGE, SALVAGE & TRANSPORTATION", 
+        "tablesectionrows": [
+          {
+            "rowtapurl": "http://appjoyride.github.io/appjoyride/clarksonsoffshore/pdfs/tstintro.pdf", 
+            "rowtapaction": "OPENWEBPAGE", 
+            "rowlabel": "Introduction", 
+            "rowvalue": ""
+          }
+        ]
+      }
+    ], 
+    "screenshowinapp_comment": "if false, screen is hidden from all users", 
+    "screentype": "TABLE", 
+    "screenname": "PDFs"
+  }, 
+  "rota": {
+    "url_instructions": "url : should be all lowercase, no spaces in url and filename. Test url in real browser", 
+    "url": "http://appjoyride.github.io/appjoyride/clarksonsoffshore/rota/rota.xlsx", 
+    "screentype": "WEBPAGE", 
+    "screenshowinapp": true, 
+    "screenshowinapp_comment": "if false, screen is hidden from all users", 
+    "screenname": "Duty Rota"
+  }
 }
