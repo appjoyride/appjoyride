@@ -1,239 +1,235 @@
 {
-    "appsettings": {
-        "activationcode": "1111",
-        "emergencyemail": "transport@clarksons.com",
-        "version": "1",
-        "emergencynumber": "+442076455032"
+    "appsettings":{
+        "activationcode":"1111",
+        "emergencyemail":"transport@clarksons.com",
+        "version":"1",
+        "emergencynumber":"+442076455032"
     },
-    "screens": [
-                "contacts",
-                "contacts online",
-                "company",
-                "about",
-                "rota",
-                "publications"
-                ],
-
-    "contacts online": {
-        "url_instructions": "url : should be all lowercase, no spaces. Test url in real browser",
-        "url": "http://www.clarksons.com/contacts/?type=people&service=18692",
-        "screentype": "WEBPAGE",
-        "screenshowinapp": true,
-        "screenshowinapp_comment": "if false, screen is hidden from all users",
-        "screenname": "Contacts"
+    "screens":[
+               "contacts",
+               "contacts online",
+               "company",
+               "about",
+               "rota",
+               "publications"
+               ],
+    "contacts online":{
+        "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
+        "url":"http://www.clarksons.com/contacts/?type=people&service=18692",
+        "screentype":"WEBPAGE",
+        "screenshowinapp":true,
+        "screenshowinapp_comment":"if false, screen is hidden from all users",
+        "screenname":"Contacts"
     },
-    "contacts": {
-        "screenshowinapp": true,
-        "tablesections": [
-                              {
-                              "tablesectiontitle": "Tom Chapman",
-                              "tablesectionrows": [
-                                                   {
-                                                   "rowlabel": "Name",
-                                                   "rowvalue": "Tom Chapman",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Office",
-                                                   "rowvalue": "London",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Email",
-                                                   "rowvalue": "tom.chapman@clarksons.com",
-                                                   "rowtapaction": "EMAIL"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Phone",
-                                                   "rowvalue": "+442076455057",
-                                                   "rowtapaction": "PHONE"
-                                                   }
-                                                   ]
-                              },
-                              {
-                              "tablesectiontitle": "Thomas Cunnell",
-                              "tablesectionrows": [
-                                                   {
-                                                   "rowlabel": "Name",
-                                                   "rowvalue": "Thomas Cunnell",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Office",
-                                                   "rowvalue": "London",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Email",
-                                                   "rowvalue": "thomas.cunnell@clarksons.com",
-                                                   "rowtapaction": "EMAIL"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Phone",
-                                                   "rowvalue": "+442076455020",
-                                                   "rowtapaction": "PHONE"
-                                                   }
-                                                   ]
-                              },
-                              {
-                              "tablesectiontitle": "Shaun Frestle",
-                              "tablesectionrows": [
-                                                   {
-                                                   "rowlabel": "Name",
-                                                   "rowvalue": "Shaun Frestle",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Office",
-                                                   "rowvalue": "London",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Email",
-                                                   "rowvalue": "shaun.frestle@clarksons.com",
-                                                   "rowtapaction": "EMAIL"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Phone",
-                                                   "rowvalue": "+442073343480",
-                                                   "rowtapaction": "PHONE"
-                                                   }
-                                                   ]
-                              },
-                              {
-                              "tablesectiontitle": "Adrian Goodger",
-                              "tablesectionrows": [
-                                                   {
-                                                   "rowlabel": "Name",
-                                                   "rowvalue": "Adrian Goodger",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Office",
-                                                   "rowvalue": "London",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Email",
-                                                   "rowvalue": "adrian.goodger@clarksons.com",
-                                                   "rowtapaction": "EMAIL"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Phone",
-                                                   "rowvalue": "+4442076455056",
-                                                   "rowtapaction": "PHONE"
-                                                   }
-                                                   ]
-                              },
-                              {
-                              "tablesectiontitle": "Kerri Libretto",
-                              "tablesectionrows": [
-                                                   {
-                                                   "rowlabel": "Name",
-                                                   "rowvalue": "Kerri Libretto",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Office",
-                                                   "rowvalue": "London",
-                                                   "rowtapaction": "COPY"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Email",
-                                                   "rowvalue": "keri.libretto@clarksons.com",
-                                                   "rowtapaction": "EMAIL"
-                                                   },
-                                                   {
-                                                   "rowlabel": "Phone",
-                                                   "rowvalue": "+442073343118",
-                                                   "rowtapaction": "PHONE"
-                                                   }
-                                                   ]
-                              }
-
-                          ],
-        "screentype": "TABLE",
-        "screenshowinapp_comment": "if false, screen is hidden from all users",
-        "screenname": "Company"
+    "contacts":{
+        "screenshowinapp":true,
+        "tablesections":[
+                         {
+                         "tablesectiontitle":"Tom Chapman",
+                         "tablesectionrows":[
+                                             {
+                                             "rowlabel":"Name",
+                                             "rowvalue":"Tom Chapman",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Office",
+                                             "rowvalue":"London",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Email",
+                                             "rowvalue":"tom.chapman@clarksons.com",
+                                             "rowtapaction":"EMAIL"
+                                             },
+                                             {
+                                             "rowlabel":"Phone",
+                                             "rowvalue":"+442076455057",
+                                             "rowtapaction":"PHONE"
+                                             }
+                                             ]
+                         },
+                         {
+                         "tablesectiontitle":"Thomas Cunnell",
+                         "tablesectionrows":[
+                                             {
+                                             "rowlabel":"Name",
+                                             "rowvalue":"Thomas Cunnell",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Office",
+                                             "rowvalue":"London",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Email",
+                                             "rowvalue":"thomas.cunnell@clarksons.com",
+                                             "rowtapaction":"EMAIL"
+                                             },
+                                             {
+                                             "rowlabel":"Phone",
+                                             "rowvalue":"+442076455020",
+                                             "rowtapaction":"PHONE"
+                                             }
+                                             ]
+                         },
+                         {
+                         "tablesectiontitle":"Shaun Frestle",
+                         "tablesectionrows":[
+                                             {
+                                             "rowlabel":"Name",
+                                             "rowvalue":"Shaun Frestle",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Office",
+                                             "rowvalue":"London",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Email",
+                                             "rowvalue":"shaun.frestle@clarksons.com",
+                                             "rowtapaction":"EMAIL"
+                                             },
+                                             {
+                                             "rowlabel":"Phone",
+                                             "rowvalue":"+442073343480",
+                                             "rowtapaction":"PHONE"
+                                             }
+                                             ]
+                         },
+                         {
+                         "tablesectiontitle":"Adrian Goodger",
+                         "tablesectionrows":[
+                                             {
+                                             "rowlabel":"Name",
+                                             "rowvalue":"Adrian Goodger",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Office",
+                                             "rowvalue":"London",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Email",
+                                             "rowvalue":"adrian.goodger@clarksons.com",
+                                             "rowtapaction":"EMAIL"
+                                             },
+                                             {
+                                             "rowlabel":"Phone",
+                                             "rowvalue":"+4442076455056",
+                                             "rowtapaction":"PHONE"
+                                             }
+                                             ]
+                         },
+                         {
+                         "tablesectiontitle":"Kerri Libretto",
+                         "tablesectionrows":[
+                                             {
+                                             "rowlabel":"Name",
+                                             "rowvalue":"Kerri Libretto",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Office",
+                                             "rowvalue":"London",
+                                             "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Email",
+                                             "rowvalue":"keri.libretto@clarksons.com",
+                                             "rowtapaction":"EMAIL"
+                                             },
+                                             {
+                                             "rowlabel":"Phone",
+                                             "rowvalue":"+442073343118",
+                                             "rowtapaction":"PHONE"
+                                             }
+                                             ]
+                         }
+                         ],
+        "screentype":"TABLE",
+        "screenshowinapp_comment":"if false, screen is hidden from all users",
+        "screenname":"Company"
     },
-    
-    "about": {
-        "url_instructions": "url : should be all lowercase, no spaces. Test url in real browser",
-        "url": "http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
-        "screentype": "WEBPAGE",
-        "screenshowinapp": true,
-        "screenshowinapp_comment": "if false, screen is hidden from all users",
-        "screenname": "About"
+    "about":{
+        "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
+        "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
+        "screentype":"WEBPAGE",
+        "screenshowinapp":true,
+        "screenshowinapp_comment":"if false, screen is hidden from all users",
+        "screenname":"About"
     },
-    "company": {
-        "screenshowinapp": true,
-        "tablesections": [
-                          {
-                          "tablesectiontitle": "Company",
-                          "tablesectionrows": [
-                                               {
-                                               "rowtapaction": "COPY",
-                                               "rowlabel": "Name",
-                                               "rowvalue": "Clarksons"
-                                               }
-                                               ]
-                          },
-                          {
-                          "tablesectiontitle": "Contact",
-                          "tablesectionrows": [
-                                               {
-                                               "rowtapaction": "COPY",
-                                               "rowlabel": "Telephone",
-                                               "rowvalue": "00442073340000"
-                                               },
-                                               {
-                                               "rowtapaction": "COPY",
-                                               "rowlabel": "Email",
-                                               "rowvalue": "london@clarksons.com"
-                                               }
-                                               ]
-                          },
-                          {
-                          "tablesectiontitle": "Address",
-                          "tablesectionrows": [
-                                               {
-                                               "rowtapaction": "COPY",
-                                               "rowlabel": "Address",
-                                               "rowvalue": "Commodity Quay\rSt Katharine Docks\rLondon\rUnited Kingdom\rE1W 1BF"
-                                               }
-                                               ]
-                          }
-                          ],
-        "screentype": "TABLE",
-        "screenshowinapp_comment": "if false, screen is hidden from all users",
-        "screenname": "Company"
+    "company":{
+        "screenshowinapp":true,
+        "tablesections":[
+                         {
+                         "tablesectiontitle":"Company",
+                         "tablesectionrows":[
+                                             {
+                                             "rowtapaction":"COPY",
+                                             "rowlabel":"Name",
+                                             "rowvalue":"Clarksons"
+                                             }
+                                             ]
+                         },
+                         {
+                         "tablesectiontitle":"Contact",
+                         "tablesectionrows":[
+                                             {
+                                             "rowtapaction":"COPY",
+                                             "rowlabel":"Telephone",
+                                             "rowvalue":"00442073340000"
+                                             },
+                                             {
+                                             "rowtapaction":"COPY",
+                                             "rowlabel":"Email",
+                                             "rowvalue":"london@clarksons.com"
+                                             }
+                                             ]
+                         },
+                         {
+                         "tablesectiontitle":"Address",
+                         "tablesectionrows":[
+                                             {
+                                             "rowtapaction":"COPY",
+                                             "rowlabel":"Address",
+                                             "rowvalue":"Commodity Quay\rSt Katharine Docks\rLondon\rUnited Kingdom\rE1W 1BF"
+                                             }
+                                             ]
+                         }
+                         ],
+        "screentype":"TABLE",
+        "screenshowinapp_comment":"if false, screen is hidden from all users",
+        "screenname":"Company"
     },
-    "publications": {
-        "screenshowinapp": true,
-        "tablesections": [
-                          {
-                          "tablesectiontitle": "TOWAGE, SALVAGE & TRANSPORTATION",
-                          "tablesectionrows": [
-                                               {
-                                               "rowtapurl": "http://appjoyride.github.io/appjoyride/clarksonsoffshore/pdfs/tstintro.pdf",
-                                               "rowtapaction": "OPENWEBPAGE",
-                                               "rowlabel": "Introduction",
-                                               "rowvalue": "TOWAGE, SALVAGE & TRANSPORTATION - Introduction"
-                                               }
-                                               ]
-                          }
-                          ],
-        "screenshowinapp_comment": "if false, screen is hidden from all users",
-        "screentype": "TABLE",
-        "screenname": "PDFs"
+    "publications":{
+        "screenshowinapp":true,
+        "tablesections":[
+                         {
+                         "tablesectiontitle":"TOWAGE, SALVAGE & TRANSPORTATION",
+                         "tablesectionrows":[
+                                             {
+                                             "rowlabel":"Oct 2017",
+                                             "rowvalue":"About Us",
+                                             "rowtapaction":"OPENWEBPAGE",
+                                             "rowtapurl":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/pdfs/tstintro.pdf"
+                                             }
+                                             ]
+                         }
+                         ],
+        "screenshowinapp_comment":"if false, screen is hidden from all users",
+        "screentype":"TABLE",
+        "screenname":"Publications"
     },
-    "rota": {
-        "url_instructions": "url : should be all lowercase, no spaces in url and filename. Test url in real browser",
-        "url": "http://appjoyride.github.io/appjoyride/clarksonsoffshore/rota/rota.xlsx",
-        "screentype": "WEBPAGE",
-        "screenshowinapp": true,
-        "screenshowinapp_comment": "if false, screen is hidden from all users",
-        "screenname": "Duty Rota"
+    "rota":{
+        "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
+        "url":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/rota/rota.xlsx",
+        "screentype":"WEBPAGE",
+        "screenshowinapp":true,
+        "screenshowinapp_comment":"if false, screen is hidden from all users",
+        "screenname":"Duty Rota"
     }
 }
-
