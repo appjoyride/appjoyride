@@ -1,0 +1,7 @@
+{
+	"name":"John Smith",
+	"middlename":null,
+	"age":30,
+	"isEmployed":true,
+    "info":{ "name":"John", "age":30, "city":"New York" }
+}
