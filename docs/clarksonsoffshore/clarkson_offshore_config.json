@@ -25,7 +25,7 @@
         "screenshowinapp":true,
         "tablesections":[
                         {
-                         "tablesectiontitle":"Adrian Goodger",
+                         "tablesectiontitle":"AG",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -55,7 +55,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"Tom Chapman",
+                         "tablesectiontitle":"TC",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -85,7 +85,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"Thomas Cunnell",
+                         "tablesectiontitle":"TC",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -115,7 +115,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"Shaun Frestle",
+                         "tablesectiontitle":"SF",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -145,7 +145,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"Kerri Libretto",
+                         "tablesectiontitle":"KL",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
