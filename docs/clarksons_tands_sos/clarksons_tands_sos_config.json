@@ -9,7 +9,7 @@
                "contacts",
                "company",
                "about",
-               "weeklydutycircular",
+               "rota",
                "publications"
                ],
     "contacts online":{
@@ -248,9 +248,9 @@
         "screentype":"TABLE",
         "screenname":"Publications"
     },
-    "weeklydutycircular":{
+    "rota":{
         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
-        "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/weeklydutycircular/WeeklyDutyCircular.pdf",
+        "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/rota/WeeklyDutyCircular.pdf",
         "screentype":"WEBPAGE",
         "screenshowinapp":true,
         "screenshowinapp_comment":"if false, screen is hidden from all users",
