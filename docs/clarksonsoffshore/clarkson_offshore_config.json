@@ -33,6 +33,11 @@
                                              "rowtapaction":"COPY"
                                              },
                                              {
+                                             "rowlabel":"Image",
+                                             "rowvalue":"tom_chapman.jpg",
+                                             "rowtapaction":"IMAGE"
+                                             },
+                                             {
                                              "rowlabel":"Office",
                                              "rowvalue":"London",
                                              "rowtapaction":"COPY"
@@ -56,6 +61,11 @@
                                              "rowlabel":"Name",
                                              "rowvalue":"Thomas Cunnell",
                                              "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Image",
+                                             "rowvalue":"tom_cunnell.jpg",
+                                             "rowtapaction":"IMAGE"
                                              },
                                              {
                                              "rowlabel":"Office",
@@ -83,6 +93,11 @@
                                              "rowtapaction":"COPY"
                                              },
                                              {
+                                             "rowlabel":"Image",
+                                             "rowvalue":"shaun_frestle.jpg",
+                                             "rowtapaction":"IMAGE"
+                                             },
+                                             {
                                              "rowlabel":"Office",
                                              "rowvalue":"London",
                                              "rowtapaction":"COPY"
@@ -108,6 +123,11 @@
                                              "rowtapaction":"COPY"
                                              },
                                              {
+                                             "rowlabel":"Image",
+                                             "rowvalue":"adrian_goodger.jpg",
+                                             "rowtapaction":"IMAGE"
+                                             },
+                                             {
                                              "rowlabel":"Office",
                                              "rowvalue":"London",
                                              "rowtapaction":"COPY"
@@ -131,6 +151,11 @@
                                              "rowlabel":"Name",
                                              "rowvalue":"Kerri Libretto",
                                              "rowtapaction":"COPY"
+                                             },
+                                             {
+                                             "rowlabel":"Image",
+                                             "rowvalue":"kerri_libretto.jpg",
+                                             "rowtapaction":"IMAGE"
                                              },
                                              {
                                              "rowlabel":"Office",
