@@ -180,7 +180,7 @@
                          ],
         "screentype":"TABLE",
         "screenshowinapp_comment":"if false, screen is hidden from all users",
-        "screenname":"Company"
+        "screenname":"Contacts"
     },
     "about":{
         "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
