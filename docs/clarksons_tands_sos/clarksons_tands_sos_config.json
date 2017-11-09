@@ -234,23 +234,12 @@
         "screenname":"Company"
     },
     "publications":{
+        "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
+        "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/publications_pdfs/tugcircular.pdf",
+        "screentype":"WEBPAGE",
         "screenshowinapp":true,
-        "tablesections":[
-                         {
-                         "tablesectiontitle":"TOWAGE, SALVAGE & TRANSPORTATION",
-                         "tablesectionrows":[
-                                             {
-                                             "rowlabel":"Oct 2017",
-                                             "rowvalue":"About Us",
-                                             "rowtapaction":"CSV",
-                                             "rowtapurl":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/publications/publications_shown_in_app.csv"
-                                             }
-                                             ]
-                         }
-                         ],
         "screenshowinapp_comment":"if false, screen is hidden from all users",
-        "screentype":"TABLE",
-        "screenname":"Publications"
+        "screenname":"Monthly Tug Position Circular"
     },
     "rota":{
         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
