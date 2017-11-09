@@ -9,7 +9,7 @@
                "contacts",
                "company",
                "about",
-               "rota",
+               "weeklydutycircular",
                "publications"
                ],
     "contacts online":{
@@ -148,12 +148,12 @@
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
-                                             "rowvalue":"Kerri Libretto",
+                                             "rowvalue":"Keri Libretto",
                                              "rowtapaction":"COPY"
                                              },
                                              {
                                              "rowlabel":"Image",
-                                             "rowvalue":"kerri_libretto.jpg",
+                                             "rowvalue":"keri_libretto.jpg",
                                              "rowtapaction":"IMAGE"
                                              },
                                              {
@@ -195,7 +195,7 @@
                                              {
                                              "rowtapaction":"COPY",
                                              "rowlabel":"Name",
-                                             "rowvalue":"Clarksons"
+                                             "rowvalue":"TOWAGE, SALVAGE & TRANSPORTATION"
                                              }
                                              ]
                          },
@@ -205,12 +205,12 @@
                                              {
                                              "rowtapaction":"COPY",
                                              "rowlabel":"Telephone",
-                                             "rowvalue":"00442073340000"
+                                             "rowvalue":"+442076455032"
                                              },
                                              {
                                              "rowtapaction":"COPY",
                                              "rowlabel":"Email",
-                                             "rowvalue":"london@clarksons.com"
+                                             "rowvalue":"transport@clarksons.com"
                                              }
                                              ]
                          },
@@ -238,8 +238,8 @@
                                              {
                                              "rowlabel":"Oct 2017",
                                              "rowvalue":"About Us",
-                                             "rowtapaction":"OPENWEBPAGE",
-                                             "rowtapurl":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/pdfs/tstintro.pdf"
+                                             "rowtapaction":"CSV",
+                                             "rowtapurl":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/publications/publications_shown_in_app.csv"
                                              }
                                              ]
                          }
@@ -248,12 +248,12 @@
         "screentype":"TABLE",
         "screenname":"Publications"
     },
-    "rota":{
+    "weeklydutycircular":{
         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
-        "url":"http://appjoyride.github.io/appjoyride/clarksonsoffshore/rota/rota.xlsx",
+        "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/weeklydutycircular/WeeklyDutyCircular.pdf",
         "screentype":"WEBPAGE",
         "screenshowinapp":true,
         "screenshowinapp_comment":"if false, screen is hidden from all users",
-        "screenname":"Duty Rota"
+        "screenname":"Weekly Duty Circular"
     }
 }
