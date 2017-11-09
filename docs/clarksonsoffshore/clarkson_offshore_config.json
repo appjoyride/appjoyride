@@ -7,7 +7,6 @@
     },
     "screens":[
                "contacts",
-               "contacts online",
                "company",
                "about",
                "rota",
@@ -25,7 +24,7 @@
         "screenshowinapp":true,
         "tablesections":[
                         {
-                         "tablesectiontitle":"AG",
+                         "tablesectiontitle":"A",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -55,7 +54,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"TC",
+                         "tablesectiontitle":"C",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -85,7 +84,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"TC",
+                         "tablesectiontitle":"C",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -115,7 +114,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"SF",
+                         "tablesectiontitle":"F",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
@@ -145,7 +144,7 @@
                                              ]
                          },
                          {
-                         "tablesectiontitle":"KL",
+                         "tablesectiontitle":"L",
                          "tablesectionrows":[
                                              {
                                              "rowlabel":"Name",
