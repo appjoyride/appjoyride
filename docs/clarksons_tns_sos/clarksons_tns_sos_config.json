@@ -227,13 +227,13 @@
     },
     "publications":{
         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
-        "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/publications_pdfs/tugcircular.pdf",
+        "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/publications_pdfs/tugcircular.pdf",
         "screentype":"WEBPAGE",
         "screenname":"Monthly Tug Position Circular"
     },
     "rota":{
         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
-        "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/rota/WeeklyDutyCircular.pdf",
+        "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/rota/WeeklyDutyCircular.pdf",
         "screentype":"WEBPAGE",
         "screenname":"Weekly Duty Circular"
     }
