@@ -8,9 +8,9 @@
     "screens":[
                "contacts",
                "company",
-               "about",
                "rota",
-               "publications"
+               "publications",
+               "about"
                ],
     "contacts online":{
         "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
