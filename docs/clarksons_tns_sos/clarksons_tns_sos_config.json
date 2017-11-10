@@ -16,12 +16,9 @@
         "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
         "url":"http://www.clarksons.com/contacts/?type=people&service=18692",
         "screentype":"WEBPAGE",
-        "screenshowinapp":true,
-        "screenshowinapp_comment":"if false, screen is hidden from all users",
         "screenname":"Contacts"
     },
     "contacts":{
-        "screenshowinapp":true,
         "tablesections":[
                         {
                          "tablesectiontitle":"Adrian Goodger",
@@ -179,19 +176,15 @@
                          }
                          ],
         "screentype":"TABLE",
-        "screenshowinapp_comment":"if false, screen is hidden from all users",
         "screenname":"Contacts"
     },
     "about":{
         "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
         "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
         "screentype":"WEBPAGE",
-        "screenshowinapp":true,
-        "screenshowinapp_comment":"if false, screen is hidden from all users",
         "screenname":"About"
     },
     "company":{
-        "screenshowinapp":true,
         "tablesections":[
                          {
                          "tablesectiontitle":"Company",
@@ -230,23 +223,18 @@
                          }
                          ],
         "screentype":"TABLE",
-        "screenshowinapp_comment":"if false, screen is hidden from all users",
         "screenname":"Company"
     },
     "publications":{
         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
         "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/publications_pdfs/tugcircular.pdf",
         "screentype":"WEBPAGE",
-        "screenshowinapp":true,
-        "screenshowinapp_comment":"if false, screen is hidden from all users",
         "screenname":"Monthly Tug Position Circular"
     },
     "rota":{
         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
         "url":"http://appjoyride.github.io/appjoyride/clarksons_tands_sos/rota/WeeklyDutyCircular.pdf",
         "screentype":"WEBPAGE",
-        "screenshowinapp":true,
-        "screenshowinapp_comment":"if false, screen is hidden from all users",
         "screenname":"Weekly Duty Circular"
     }
 }
