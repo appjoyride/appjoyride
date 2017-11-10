@@ -10,7 +10,6 @@
       "company",
       "rota",
       "publications",
-      "publications1",
       "about"
    ],
    "screens":{
@@ -222,12 +221,6 @@
          "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
          "screentype":"WEBPAGE",
          "screenname":"Monthly Tug Position Circular"
-      },
-      "publications1":{
-         "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/publications_pdfs/tugcircular.pdf",
-         "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
-         "screentype":"WEBPAGE",
-         "screenname":"Monthly Tug Position Circula1r"
       },
       "about":{
          "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
