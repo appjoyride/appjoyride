@@ -1,17 +1,4 @@
 {
-  "screens_order_and_visibility": [
-    "contacts", 
-    "company", 
-    "rota", 
-    "publications", 
-    "about"
-  ], 
-  "appsettings": {
-    "activationcode": "1111", 
-    "emergencyemail": "transport@clarksons.com", 
-    "version": "4", 
-    "emergencynumber": "+442076455032"
-  }, 
   "screens": {
     "rota": {
       "url": "http://appjoyride.github.io/appjoyride/clarksons_tns_sos/rota/WeeklyDutyCircular.pdf", 
@@ -24,53 +11,6 @@
       "url_instructions": "url : should be all lowercase, no spaces. Test url in real browser", 
       "screentype": "WEBPAGE", 
       "screenname": "About"
-    }, 
-    "company": {
-      "tablesections": [
-        {
-          "tablesectiontitle": "Company", 
-          "tablesectionrows": [
-            {
-              "rowtapaction": "COPY", 
-              "rowlabel": "Name", 
-              "rowvalue": "TOWAGE, SALVAGE & TRANSPORTATION"
-            }
-          ]
-        }, 
-        {
-          "tablesectiontitle": "Contact", 
-          "tablesectionrows": [
-            {
-              "rowtapaction": "COPY", 
-              "rowlabel": "Telephone", 
-              "rowvalue": "+442076455032"
-            }, 
-            {
-              "rowtapaction": "COPY", 
-              "rowlabel": "Email", 
-              "rowvalue": "transport@clarksons.com"
-            }
-          ]
-        }, 
-        {
-          "tablesectiontitle": "Address", 
-          "tablesectionrows": [
-            {
-              "rowtapaction": "COPY", 
-              "rowlabel": "Address", 
-              "rowvalue": "Commodity Quay\rSt Katharine Docks\rLondon\rUnited Kingdom\rE1W 1BF"
-            }
-          ]
-        }
-      ], 
-      "screentype": "TABLE", 
-      "screenname": "Company"
-    }, 
-    "publications": {
-      "url": "http://appjoyride.github.io/appjoyride/clarksons_tns_sos/publications_pdfs/tugcircular.pdf", 
-      "url_instructions": "url : should be all lowercase, no spaces in url and filename. Test url in real browser", 
-      "screentype": "WEBPAGE", 
-      "screenname": "Monthly Tug Position Circular"
     }, 
     "contacts": {
       "tablesections": [
@@ -227,6 +167,66 @@
       ], 
       "screentype": "TABLE", 
       "screenname": "Contacts"
+    }, 
+    "company": {
+      "tablesections": [
+        {
+          "tablesectiontitle": "Company", 
+          "tablesectionrows": [
+            {
+              "rowtapaction": "COPY", 
+              "rowlabel": "Name", 
+              "rowvalue": "TOWAGE, SALVAGE & TRANSPORTATION"
+            }
+          ]
+        }, 
+        {
+          "tablesectiontitle": "Contact", 
+          "tablesectionrows": [
+            {
+              "rowtapaction": "COPY", 
+              "rowlabel": "Telephone", 
+              "rowvalue": "+442076455032"
+            }, 
+            {
+              "rowtapaction": "COPY", 
+              "rowlabel": "Email", 
+              "rowvalue": "transport@clarksons.com"
+            }
+          ]
+        }, 
+        {
+          "tablesectiontitle": "Address", 
+          "tablesectionrows": [
+            {
+              "rowtapaction": "COPY", 
+              "rowlabel": "Address", 
+              "rowvalue": "Commodity Quay\rSt Katharine Docks\rLondon\rUnited Kingdom\rE1W 1BF"
+            }
+          ]
+        }
+      ], 
+      "screentype": "TABLE", 
+      "screenname": "Company"
+    }, 
+    "publications": {
+      "url": "http://appjoyride.github.io/appjoyride/clarksons_tns_sos/publications_pdfs/tugcircular.pdf", 
+      "url_instructions": "url : should be all lowercase, no spaces in url and filename. Test url in real browser", 
+      "screentype": "WEBPAGE", 
+      "screenname": "Monthly Tug Position Circular"
     }
-  }
+  }, 
+  "appsettings": {
+    "activationcode": "1111", 
+    "emergencyemail": "transport@clarksons.com", 
+    "version": "4", 
+    "emergencynumber": "+442076455032"
+  }, 
+  "screens_order_and_visibility": [
+    "contacts", 
+    "company", 
+    "rota", 
+    "publications", 
+    "about"
+  ]
 }
