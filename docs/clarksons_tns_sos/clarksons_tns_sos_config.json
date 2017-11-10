@@ -1,1 +1,24 @@
-CORRUPT
+[
+  {
+	 "name":"John Smith",
+	 "middlename":null,
+	 "age":30,
+	 "isEmployed":true,
+	 "info":{
+		"name":"John",
+		"age":30,
+		"city":"New York"
+	 }
+  },
+  {
+	 "name":"Paul Ryan",
+	 "middlename":null,
+	 "age":30,
+	 "isEmployed":true,
+	 "info":{
+		"name":"Paul",
+		"age":30,
+		"city":"New York"
+	 }
+  }
+]
