@@ -14,7 +14,6 @@
                                     "share_app_ios"
                                     ],
     "screens":{
-
         "contacts":{
 			"screentype":"TABLE",
 			"screenname":"Contacts",
@@ -190,7 +189,7 @@
                              "tablesectionrows":[
                                                  {
                                                  "rowtapaction":"COPY",
-                                                 "rowlabel":"Telephone",
+                                                 "rowlabel":"Emergency SOS Number",
                                                  "rowvalue":"+442076455032"
                                                  },
                                                  {
@@ -219,7 +218,6 @@
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
-
         },
         "publications":{
             "screentype":"WEBPAGE",
@@ -236,7 +234,6 @@
             "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
-
         },
         "share_app_ios":{
             "screentype":"SHARE_APP_VIA_EMAIL",
