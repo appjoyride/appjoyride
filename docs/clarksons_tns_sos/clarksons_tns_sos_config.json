@@ -14,7 +14,10 @@
                                     "share_app_ios"
                                     ],
     "screens":{
+
         "contacts":{
+			"screentype":"TABLE",
+			"screenname":"Contacts",
             "tablesections":[
                              {
                              "tablesectiontitle":"Adrian Goodger",
@@ -166,11 +169,11 @@
                                                  }
                                                  ]
                              }
-                             ],
-            "screentype":"TABLE",
-            "screenname":"Contacts"
+                             ]
         },
         "company":{
+            "screentype":"TABLE",
+            "screenname":"Company",
             "tablesections":[
                              {
                              "tablesectiontitle":"Company",
@@ -207,41 +210,41 @@
                                                  }
                                                  ]
                              }
-                             ],
-            "screentype":"TABLE",
-            "screenname":"Company"
+                             ]
         },
         "rota":{
+            "screentype":"WEBPAGE",
+            "screenname":"Weekly Duty Circular",
             "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/rota/WeeklyDutyCircular.pdf",
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
             "url_open_in_app_browser": true,
-            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url",
-            "screentype":"WEBPAGE",
-            "screenname":"Weekly Duty Circular"
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+
         },
         "publications":{
+            "screentype":"WEBPAGE",
+            "screenname":"Monthly Tug Position Circular"
             "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/publications_pdfs/tugcircular.pdf",
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
             "url_open_in_app_browser": true,
-            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url",
-            "screentype":"WEBPAGE",
-            "screenname":"Monthly Tug Position Circular"
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
         "about":{
+            "screentype":"WEBPAGE",
+            "screenname":"About",
             "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
             "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
             "url_open_in_app_browser": true,
-            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url",
-            "screentype":"WEBPAGE",
-            "screenname":"About"
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+
         },
         "share_app_ios":{
+            "screentype":"SHARE_APP_VIA_EMAIL",
+            "screenname":"Share App",
             "url":"https://itunes.apple.com/gb/app/seanet/id1084735244?mt=8",
             "url_instructions":"url : app store links only work on the app store",
             "url_open_in_app_browser": false,
-            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url",
-            "screentype":"WEBPAGE",
-            "screenname":"Share App"
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         }
     }
 }
