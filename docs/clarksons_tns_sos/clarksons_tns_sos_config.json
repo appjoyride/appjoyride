@@ -223,7 +223,7 @@
         },
         "publications":{
             "screentype":"WEBPAGE",
-            "screenname":"Monthly Tug Position Circular"
+            "screenname":"Monthly Tug Position Circular",
             "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/publications_pdfs/tugcircular.pdf",
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
             "url_open_in_app_browser": true,
