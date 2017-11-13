@@ -236,7 +236,7 @@
             "screenname":"About"
         },
         "share_app_ios":{
-            "url":"https://itunes.apple.com/us/app/apple-store/id375380948?mt=8",
+            "url":"https://itunes.apple.com/gb/app/seanet/id1084735244?mt=8",
             "url_instructions":"url : app store links only work on the app store",
             "url_open_in_app_browser": false,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url",
