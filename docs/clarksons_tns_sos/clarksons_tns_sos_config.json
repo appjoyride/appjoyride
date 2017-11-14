@@ -2,7 +2,7 @@
     "appsettings":{
         "activationcode":"1111",
         "emergencyemail":"transport@clarksons.com",
-        "version":"4",
+        "version":"1.1",
         "emergencynumber":"+442076455032"
     },
     "screens_order_and_visibility":[
@@ -15,8 +15,8 @@
                                     ],
     "screens":{
         "contacts":{
-			"screentype":"TABLE",
-			"screenname":"Contacts",
+            "screentype":"TABLE",
+            "screenname":"Contacts",
             "tablesections":[
                              {
                              "tablesectiontitle":"Adrian Goodger",
