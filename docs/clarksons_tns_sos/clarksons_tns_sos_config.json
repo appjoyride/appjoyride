@@ -215,7 +215,8 @@
             "screentype":"WEBPAGE",
             "screenname":"Weekly Duty Circular",
             "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/rota/WeeklyDutyCircular.pdf",
-            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
+            "url_relative_to_config": true,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
@@ -223,7 +224,8 @@
             "screentype":"WEBPAGE",
             "screenname":"Monthly Tug Position Circular",
             "url":"http://appjoyride.github.io/appjoyride/clarksons_tns_sos/publications_pdfs/tugcircular.pdf",
-            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser",
+            "url_relative_to_config": true,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
@@ -231,7 +233,8 @@
             "screentype":"WEBPAGE",
             "screenname":"About",
             "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
-            "url_instructions":"url : should be all lowercase, no spaces. Test url in real browser",
+            "url_relative_to_config": false,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
@@ -239,7 +242,8 @@
             "screentype":"SHARE_APP_VIA_EMAIL",
             "screenname":"Share App",
             "url":"https://itunes.apple.com/gb/app/seanet/id1084735244?mt=8",
-            "url_instructions":"url : app store links only work on the app store",
+            "url_relative_to_config": false,
+            "url_instructions":"url : app store links only work on the app store. url_relative_to_config: n/a used for for local pdfs",
             "url_open_in_app_browser": false,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         }
