@@ -2,7 +2,7 @@
     "appsettings":{
         "activationcode":"012468",
         "emergencyemail":"transport@clarksons.com",
-        "version":"1.3",
+        "version":"1.4",
         "emergencynumber":"+442076455032"
     },
     "screens_order_and_visibility":[
