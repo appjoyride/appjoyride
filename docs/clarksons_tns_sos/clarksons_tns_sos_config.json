@@ -214,7 +214,7 @@
         "rota":{
             "screentype":"WEBPAGE",
             "screenname":"Weekly Duty Circular",
-            "url":"WeeklyDutyCircular.pdf",
+            "url":"/rota/WeeklyDutyCircular.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
             "url_open_in_app_browser": true,
@@ -223,7 +223,7 @@
         "publications":{
             "screentype":"WEBPAGE",
             "screenname":"Monthly Tug Position Circular",
-            "url":"tugcircular.pdf",
+            "url":"/publications_pdfs/tugcircular.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
             "url_open_in_app_browser": true,
