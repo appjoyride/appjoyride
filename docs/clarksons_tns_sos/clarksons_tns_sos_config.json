@@ -1,15 +1,16 @@
 {
     "appsettings":{
         "activationcode":"012468",
-        "emergencyemail":"transport@clarksons.com",
-        "version":"1.4",
+        "emergencyemail":"towage@clarksons.com",
+        "version":"1.4.1",
         "emergencynumber":"+442076455032"
     },
     "screens_order_and_visibility":[
                                     "contacts",
                                     "company",
                                     "rota",
-                                    "publications",
+                                    "publications_tugcircular",
+                                    "publications_emergency_response_information",
                                     "about",
                                     "share_app_ios"
                                     ],
@@ -220,10 +221,19 @@
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
-        "publications":{
+        "publications_tugcircular":{
             "screentype":"WEBPAGE",
             "screenname":"Monthly Tug Position Circular",
             "url":"/publications_pdfs/tugcircular.pdf",
+            "url_relative_to_config": true,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
+            "url_open_in_app_browser": true,
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+        },
+        "publications_emergency_response_information":{
+            "screentype":"WEBPAGE",
+            "screenname":"Emergency Response Information",
+            "url":"/publications_pdfs/emergency_response_information.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
             "url_open_in_app_browser": true,
