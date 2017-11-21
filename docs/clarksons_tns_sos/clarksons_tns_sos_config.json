@@ -2,7 +2,7 @@
     "appsettings":{
         "activationcode":"012468",
         "emergencyemail":"towage@clarksons.com",
-        "version":"1.5.1",
+        "version":"1.5.2",
         "emergencynumber":"+442076455032"
     },
     "screens_order_and_visibility":[
@@ -44,7 +44,7 @@
                                                  },
                                                  {
                                                  "rowtapaction":"PHONE",
-                                                 "rowlabel":"Phone",
+                                                 "rowlabel":"Mobile",
                                                  "rowvalue":"+447836598652"
                                                  }
                                                  ]
@@ -74,7 +74,7 @@
                                                  },
                                                  {
                                                  "rowtapaction":"PHONE",
-                                                 "rowlabel":"Phone",
+                                                 "rowlabel":"Mobile",
                                                  "rowvalue":"+447802658010"
                                                  }
                                                  ]
@@ -104,7 +104,7 @@
                                                  },
                                                  {
                                                  "rowtapaction":"PHONE",
-                                                 "rowlabel":"Phone",
+                                                 "rowlabel":"Mobile",
                                                  "rowvalue":""
                                                  }
                                                  ]
@@ -134,7 +134,7 @@
                                                  },
                                                  {
                                                  "rowtapaction":"PHONE",
-                                                 "rowlabel":"Phone",
+                                                 "rowlabel":"Mobile",
                                                  "rowvalue":"+447836552666"
                                                  }
                                                  ]
@@ -164,7 +164,7 @@
                                                  },
                                                  {
                                                  "rowtapaction":"PHONE",
-                                                 "rowlabel":"Phone",
+                                                 "rowlabel":"Mobile",
                                                  "rowvalue":"+447831612571"
                                                  }
                                                  ]
