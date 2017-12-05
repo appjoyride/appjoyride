@@ -189,12 +189,12 @@
                              "tablesectiontitle":"Contact",
                              "tablesectionrows":[
                                                  {
-                                                 "rowtapaction":"COPY",
+                                                 "rowtapaction":"PHONE",
                                                  "rowlabel":"Emergency SOS Number",
                                                  "rowvalue":"+442076455032"
                                                  },
                                                  {
-                                                 "rowtapaction":"COPY",
+                                                 "rowtapaction":"EMAIL",
                                                  "rowlabel":"Email",
                                                  "rowvalue":"towage@clarksons.com"
                                                  }
@@ -206,7 +206,7 @@
                                                  {
                                                  "rowtapaction":"COPY",
                                                  "rowlabel":"Address",
-                                                 "rowvalue":"Commodity Quay\rSt Katharine Docks\rLondon\rUnited Kingdom\rE1W 1BF"
+                                                 "rowvalue":"Commodity Quay\nSt Katharine Docks\nLondon\nUnited Kingdom\nE1W 1BF"
                                                  }
                                                  ]
                              }
