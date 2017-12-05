@@ -12,7 +12,7 @@
                                     "publications_tugcircular",
                                     "publications_emergency_response_information",
                                     "about",
-                                    "share_app_ios"
+                                    "share_app"
                                     ],
     "screens":{
         "contacts":{
@@ -248,10 +248,11 @@
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
-        "share_app_ios":{
+        "share_app":{
             "screentype":"SHARE_APP_VIA_EMAIL",
             "screenname":"Share App",
-            "url":"https://itunes.apple.com/us/app/t-s-sos/id1313832384?ls=1&mt=8",
+            "urlios":"https://itunes.apple.com/gr/developer/clarkson-cloud/id1084735243?uo=4&at=11l6hc&ct=fnd
+            "urlandroid":"https://play.google.com/store/apps/developer?id=Clarksons%20Cloud&hl=en_GB",
             "url_relative_to_config": false,
             "url_instructions":"url : app store links only work on the app store. url_relative_to_config: n/a used for for local pdfs",
             "url_open_in_app_browser": false,
