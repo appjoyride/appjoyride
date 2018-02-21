@@ -12,10 +12,9 @@
                                     "publications_tugcircular",
                                     "publications_emergency_response_information",
                                     "about",
-                                    "share_app",
                                     "tandc",
                                     "privacypolicy",
-                                    "share_app",
+                                    "share_app"
                                     ],
     "screens":{
         "contacts":{
