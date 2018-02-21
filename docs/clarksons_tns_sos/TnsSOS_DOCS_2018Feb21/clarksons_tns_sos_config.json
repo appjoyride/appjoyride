@@ -12,6 +12,8 @@
                                     "publications_tugcircular",
                                     "publications_emergency_response_information",
                                     "about",
+                                    "tandc",
+                                    "privacypolicy",
                                     "share_app"
                                     ],
     "screens":{
@@ -243,6 +245,25 @@
             "screentype":"WEBPAGE",
             "screenname":"About",
             "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
+            "url_relative_to_config": false,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
+            "url_open_in_app_browser": true,
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+        },
+        "tandc":{
+            "screentype":"WEBPAGE",
+            "screenname":"T & C",
+            "url_ios":"/tandc/tandc_ios.pdf",
+            "url_android":"/tandc/tandc_android.pdf",
+            "url_relative_to_config": true,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
+            "url_open_in_app_browser": true,
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+        },
+        "privacypolicy":{
+            "screentype":"WEBPAGE",
+            "screenname":"Privacy Policy",
+            "url":"https://www.clarksons.com/privacy-policy/",
             "url_relative_to_config": false,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
             "url_open_in_app_browser": true,
