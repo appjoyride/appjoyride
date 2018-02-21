@@ -252,7 +252,7 @@
         },
         "tandc":{
             "screentype":"WEBPAGE",
-            "screenname":"T & C",
+            "screenname":"Terms of Use",
             "url_ios":"/tandc/tandc_ios.pdf",
             "url_android":"/tandc/tandc_android.pdf",
             "url_relative_to_config": true,
