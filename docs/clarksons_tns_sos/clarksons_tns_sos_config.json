@@ -4,7 +4,7 @@
         "emergencyemail":"towage@clarksons.com",
         "version":"2.0.5",
         "emergencynumber":"+442076455032"
-    },
+    }, 
     "screens_order_and_visibility":[
                                     "contacts",
                                     "company",
