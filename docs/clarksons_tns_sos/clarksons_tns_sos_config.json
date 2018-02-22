@@ -2,7 +2,7 @@
     "appsettings":{
         "activationcode":"012468",
         "emergencyemail":"towage@clarksons.com",
-        "version":"2.0.4",
+        "version":"2.0.5",
         "emergencynumber":"+442076455032"
     },
     "screens_order_and_visibility":[
@@ -272,8 +272,8 @@
         "share_app":{
             "screentype":"SHARE_APP_VIA_EMAIL",
             "screenname":"Share App",
-            "url_ios":"https://itunes.apple.com/gr/developer/clarkson-cloud/id1084735243?uo=4&at=11l6hc&ct=fnd",
-            "url_android":"https://play.google.com/store/apps/developer?id=Clarksons%20Cloud&hl=en_GB",
+            "url_ios":"https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8",
+            "url_android":"https://play.google.com/store/apps/details?id=com.clarksons.tnssos",
             "url_relative_to_config": false,
             "url_instructions":"url : app store links only work on the app store. url_relative_to_config: n/a used for for local pdfs",
             "url_open_in_app_browser": false,
