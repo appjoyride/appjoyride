@@ -1,6 +1,7 @@
 {
     "appsettings":{
         "activationcode":"012468",
+        "activation_on":true,
         "emergencyemail":"towage@clarksons.com",
         "version":"2.0.6",
         "emergencynumber":"+442076455032"
