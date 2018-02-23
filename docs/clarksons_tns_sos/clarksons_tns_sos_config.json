@@ -17,8 +17,8 @@
                                     "share_app"
                                     ],
     "screens_order_and_visibility_v2_publications":[
-                                    "rota",
                                     "publications_tugcircular",
+                                    "rota",
                                     "publications_emergency_response_information"
                                     ],
     "screens_order_and_visibility_v2_contacts":[
@@ -233,6 +233,7 @@
         "rota":{
             "screentype":"WEBPAGE",
             "screenname":"Weekly Duty Circular",
+            "screendetail":"Up-to-date list of available vessels and who's on-call when you ring",
             "url":"/rota/WeeklyDutyCircular.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
@@ -242,6 +243,7 @@
         "publications_tugcircular":{
             "screentype":"WEBPAGE",
             "screenname":"Monthly Tug Position Circular",
+            "screendetail":"Read our monthly publication from Clarkson Towage, Salvage and Transportation",
             "url":"/publications_pdfs/tugcircular.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
@@ -251,6 +253,7 @@
         "publications_emergency_response_information":{
             "screentype":"WEBPAGE",
             "screenname":"Emergency Response Information",
+            "screendetail":"Checklist of emergency info we require to help us respond quickly",
             "url":"/publications_pdfs/emergency_response_information.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
@@ -259,7 +262,8 @@
         },
         "about":{
             "screentype":"WEBPAGE",
-            "screenname":"About",
+            "screenname":"About Clarksons",
+            "screendetail":"Read more about us at clarksons.com",
             "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
             "url_relative_to_config": false,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
@@ -269,6 +273,7 @@
         "tandc":{
             "screentype":"WEBPAGE",
             "screenname":"Terms of Use",
+            "screendetail":"View the apps terms of use",
             "url_ios":"/tandc/tandc_ios.pdf",
             "url_android":"/tandc/tandc_android.pdf",
             "url_relative_to_config": true,
@@ -279,6 +284,7 @@
         "privacypolicy":{
             "screentype":"WEBPAGE",
             "screenname":"Privacy Policy",
+            "screendetail":"View the apps privacy information.",
             "url":"/tandc/privacypolicy.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
@@ -288,6 +294,7 @@
         "share_app":{
             "screentype":"SHARE_APP_VIA_EMAIL",
             "screenname":"Share App",
+            "screendetail":"Email download instructions for the app to other clients.",
             "email_text":"<br /><b>Clarksons T&S SOS</b> (Towage and Salvage)<br /><br /><b>Download Instructions</b><br /><br />Simply open this email on your device <b>(and not your PC)</b><br />then click on the link below for their device<br />and it will automatically open the app in the app store.<br /><br />Once in the app store follow the instructions to install the app for free.<br /><br />Here are links to install the app:<br /><br />App Store<br /><br /><a href=\"https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8\">https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8</a><br /><br />Play Store<br /><a href=\"https://play.google.com/store/apps/details?id=com.clarksons.tnssos\">https://play.google.com/store/apps/details?id=com.clarksons.tnssos</a><br /><br />You will require an activation pin to use the app.<br />To request a pin or for any other problems please don't hesitated to contact us at:<br /><a href=\"mailto://towage@clarksons.com\">towage@clarksons.com</a><br /><br /><br />Regards<br /><br />Clarksons Towage, Salvage & Transportation<br /><br />Offshore | H Clarkson & Company Limited<br />T: +44 20 7645 5032<br />Group Email: towage@clarksons.com<br /><br />Clarksons Platou Offshore<br />Commodity Quay| St. Katharine Docks | London | E1W 1BF | United Kingdom<br />www.clarksons.com<br />",
             "url_ios":"https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8",
             "url_android":"https://play.google.com/store/apps/details?id=com.clarksons.tnssos",
