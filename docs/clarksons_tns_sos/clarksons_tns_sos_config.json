@@ -235,7 +235,7 @@
         },
         "rota":{
             "screentype":"WEBPAGE",
-            "screenname":""This Week’s Position Report",",
+            "screenname":"This Week’s Position Report",
             "screendetail":"Up-to-date list of available vessels and 24/7 on-call rota",
             "url":"/rota/WeeklyDutyCircular.pdf",
             "url_relative_to_config": true,
