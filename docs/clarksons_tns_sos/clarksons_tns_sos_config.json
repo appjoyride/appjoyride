@@ -16,6 +16,22 @@
                                     "privacypolicy",
                                     "share_app"
                                     ],
+    "screens_order_and_visibility_v2_publications":[
+                                    "rota",
+                                    "publications_tugcircular",
+                                    "publications_emergency_response_information"
+                                    ],
+    "screens_order_and_visibility_v2_contacts":[
+                                    "contacts",
+                                    "company"
+                                    ],
+   "screens_order_and_visibility_v2_about":[
+                                    "about",
+                                    "tandc",
+                                    "privacypolicy",
+                                    "share_app"
+                                    ],
+                                    
     "screens":{
         "contacts":{
             "screentype":"TABLE",
@@ -273,8 +289,8 @@
             "screentype":"SHARE_APP_VIA_EMAIL",
             "screenname":"Share App",
             "email_text":"<br /><b>Clarksons T&S SOS</b> (Towage and Salvage)<br /><br /><b>Download Instructions</b><br /><br />Simply open this email on your device <b>(and not your PC)</b><br />then click on the link below for their device<br />and it will automatically open the app in the app store.<br /><br />Once in the app store follow the instructions to install the app for free.<br /><br />Here are links to install the app:<br /><br />App Store<br /><br /><a href=\"https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8\">https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8</a><br /><br />Play Store<br /><a href=\"https://play.google.com/store/apps/details?id=com.clarksons.tnssos\">https://play.google.com/store/apps/details?id=com.clarksons.tnssos</a><br /><br />You will require an activation pin to use the app.<br />To request a pin or for any other problems please don't hesitated to contact us at:<br /><a href=\"mailto://towage@clarksons.com\">towage@clarksons.com</a><br /><br /><br />Regards<br /><br />Clarksons Towage, Salvage & Transportation<br /><br />Offshore | H Clarkson & Company Limited<br />T: +44 20 7645 5032<br />Group Email: towage@clarksons.com<br /><br />Clarksons Platou Offshore<br />Commodity Quay| St. Katharine Docks | London | E1W 1BF | United Kingdom<br />www.clarksons.com<br />",
-            "url_ios":"",
-            "url_android":"",
+            "url_ios":"https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8",
+            "url_android":"https://play.google.com/store/apps/details?id=com.clarksons.tnssos",
             "url_relative_to_config": false,
             "url_instructions":"url : had to move into config apple passed v1 of app then rejected minor update. So to move email to config asap before launch",
             "url_open_in_app_browser": false,
