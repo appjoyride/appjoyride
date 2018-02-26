@@ -1,6 +1,7 @@
 {
     "appsettings":{
         "activationcode":"012468",
+        "activation_on":false,
         "emergencyemail":"towage@clarksons.com",
         "version":"2.0.7",
         "emergencynumber":"+442076455032"
@@ -15,7 +16,23 @@
                                     "tandc",
                                     "privacypolicy",
                                     "share_app"
-                                    ],           
+                                    ],
+    "screens_order_and_visibility_v2_publications":[
+                                    "publications_tugcircular",
+                                    "rota",
+                                    "publications_emergency_response_information"
+                                    ],
+    "screens_order_and_visibility_v2_contacts":[
+                                    "contacts",
+                                    "company"
+                                    ],
+   "screens_order_and_visibility_v2_about":[
+                                    "about",
+                                    "tandc",
+                                    "privacypolicy",
+                                    "share_app"
+                                    ],
+                                    
     "screens":{
         "contacts":{
             "screentype":"TABLE",
@@ -277,7 +294,7 @@
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
-        "share_app_old":{
+        "share_app":{
             "screentype":"SHARE_APP_VIA_EMAIL",
             "screenname":"Share App",
             "screendetail":"Email download instructions for the app to other users.",
@@ -287,16 +304,6 @@
             "url_relative_to_config": false,
             "url_instructions":"url : had to move into config apple passed v1 of app then rejected minor update. So to move email to config asap before launch",
             "url_open_in_app_browser": false,
-            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
-        }
-         "share_app":{
-             "screentype":"WEBPAGE",
-            "screenname":"Share App",
-            "screendetail":"View the apps privacy information.",
-            "url":"/share/index.html",
-            "url_relative_to_config": true,
-            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
-            "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         }
     }
