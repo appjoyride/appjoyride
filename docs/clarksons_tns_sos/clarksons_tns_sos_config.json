@@ -14,7 +14,8 @@
                                     "about",
                                     "tandc",
                                     "privacypolicy",
-                                    "share_app"
+                                    "share_app",
+                                    "share_app_ios"
                                     ],           
     "screens":{
         "contacts":{
@@ -298,6 +299,26 @@
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
-        }
+        },
+         "share_app_ios":{
+             "screentype":"WEBPAGE",
+            "screenname":"Share App to iOS user",
+            "screendetail":"View the apps privacy information.",
+            "url":"mailto:someone@example.com?Subject=Download&Body=https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8",
+            "url_relative_to_config": false,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
+            "url_open_in_app_browser": true,
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+        },
+        "share_app_android":{
+             "screentype":"WEBPAGE",
+            "screenname":"Share App to Android user",
+            "screendetail":"View the apps privacy information.",
+            "url":"mailto:someone@example.com?Subject=Download&Body=https://itunes.apple.com/gb/app/t-s-sos/id1337034415?mt=8",
+            "url_relative_to_config": false,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
+            "url_open_in_app_browser": true,
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+        },
     }
 }
