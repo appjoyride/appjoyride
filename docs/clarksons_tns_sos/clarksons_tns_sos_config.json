@@ -309,6 +309,6 @@
             "url_instructions":"url : had to move into config apple passed v1 of app then rejected minor update. So to move email to config asap before launch",
             "url_open_in_app_browser": false,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
-        },
+        }
     }
 }
