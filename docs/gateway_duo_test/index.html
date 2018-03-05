@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width">
-<meta name="viewport" content="initial-scale=1.0">
 <html>
-<title>Clarksons Authentication</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<title>DUO Authentication</title>
 <head>
 
-<script src="https://cloud.uatdmz.clarksons.com/assets/duo/Duo-Web-v2.min.js"></script>
+<script src="https://cloud.clarksons.com/assets/duo/Duo-Web-v2.min.js"></script>
 <style>
 body {
-    background-color: #616161;
+background-color: #112539;
+font-family:'Helvetica Neue', 'Source Sans Pro','Segoe UI','Droid Sans', Tahoma, Arial, sans-serif;
+font-size: 14px;
+color: #FFFFFF;
 }
 </style>
 </head>
 <body>
+<p>v1 1207</p>
 
-<h1>Testmonjan15_1341</h1>
-<p>Please choose a method of authentication</p>
 <iframe id="duo_iframe" 
-        title="Two-Factor Authentication" 
-        frameborder="0" 
-        style="height:400px;width:100%" 
-        src="framesource.html"></iframe>
+title="Two-Factor Authentication" 
+frameborder="0" 
+data-host="api-00ee4048.duosecurity.com" 
+data-sig-request="TX|Z2J4Y3xESTJVM04zOTNFMVJGUkpCWEhXWXwxNTIwMjUxOTE3|29b2908721a9f77fc669d8fa1f3ae528128dcf57:APP|Z2J4Y3xESTJVM04zOTNFMVJGUkpCWEhXWXwxNTIwMjU1MjE3|364f50e67f0a84adc2471215e3408d44b58cb721" 
+style="height:400px;width:100%" 
+src="https://api-00ee4048.duosecurity.com/frame/web/v1/auth?tx=TX|Z2J4Y3xESTJVM04zOTNFMVJGUkpCWEhXWXwxNTIwMjUxOTE3|29b2908721a9f77fc669d8fa1f3ae528128dcf57&amp;parent=https%3A%2F%2Fcloud.clarksons.com%2F%23%2Flogin&amp;v=2.6" 
+data-post-action="API/1_2/Security/LoginWithDuo" 
+data-post-argument="Sig" 
+sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation" 
+> 
+</iframe>
+
 </body>
 </html>
