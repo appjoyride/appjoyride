@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+                                                                           <html>
+                                                                           <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+                                                                           <title>DUO Authentication</title>
+                                                                           <head>
+                                                                           
+                                                                           <script src="https://cloud.clarksons.com/assets/duo/Duo-Web-v2.min.js"></script>
+                                                                           <style>
+                                                                           body {
+                                                                           background-color: #112539;
+                                                                           font-family:'Helvetica Neue', 'Source Sans Pro','Segoe UI','Droid Sans', Tahoma, Arial, sans-serif;
+                                                                           font-size: 14px;
+                                                                           color: #FFFFFF;
+                                                                           }
+                                                                           </style>
+                                                                           </head>
+                                                                           <body>
+                                                                           <p>v2 1214</p>
+                                                                           
+                                                                           <iframe id="duo_iframe" 
+                                                                           title="Two-Factor Authentication" 
+                                                                           frameborder="0" 
+                                                                           data-host="api-00ee4048.duosecurity.com" 
+                                                                           data-sig-request="TX|Z2J4Y3xESTJVM04zOTNFMVJGUkpCWEhXWXwxNTIwMjUyMzA1|5b3f2260da8992f9b2022c97ba925935a4271429:APP|Z2J4Y3xESTJVM04zOTNFMVJGUkpCWEhXWXwxNTIwMjU1NjA1|e5746916b483de59a7fc77adaf575926185464ca" 
+                                                                           style="height:400px;width:100%" 
+                                                                           src="https://api-00ee4048.duosecurity.com/frame/web/v1/auth?tx=TX|Z2J4Y3xESTJVM04zOTNFMVJGUkpCWEhXWXwxNTIwMjUyMzA1|5b3f2260da8992f9b2022c97ba925935a4271429&amp;parent=https%3A%2F%2Fcloud.clarksons.com%2F%23%2Flogin&amp;v=2.6" 
+                                                                           data-post-action="API/1_2/Security/LoginWithDuo" 
+                                                                           data-post-argument="Sig" 
+                                                                           sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation" 
+                                                                           > 
+                                                                           </iframe>
+                                                                           
+                                                                           </body>
+                                                                           </html>
