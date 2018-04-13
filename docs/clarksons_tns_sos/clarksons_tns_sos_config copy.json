@@ -4,7 +4,7 @@
         "emergencyemail":"towage@clarksons.com",
         "version":"2.0.9",
         "emergencynumber":"+442076455032"
-    },
+    }, 
     "screens_order_and_visibility":[
                                     "contacts",
                                     "company",
@@ -15,18 +15,18 @@
                                     "tandc",
                                     "privacypolicy",
                                     "share_app"
-                                    ],
-    "screens_order_and_visibility_android":[
-                                            "contacts",
-                                            "company",
-                                            "rota",
-                                            "publications_tugcircular",
-                                            "publications_emergency_response_information",
-                                            "about",
-                                            "tandc",
-                                            "privacypolicy",
-                                            "share_app_android"
-                                            ],
+                                    ],     
+	"screens_order_and_visibility_android":[
+                                    "contacts",
+                                    "company",
+                                    "rota",
+                                    "publications_tugcircular",
+                                    "publications_emergency_response_information",
+                                    "about",
+                                    "tandc",
+                                    "privacypolicy",
+                                    "share_app_android"
+                                    ],          
     "screens":{
         "contacts":{
             "screentype":"TABLE",
@@ -288,7 +288,7 @@
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
-        "share_app":{
+         "share_app":{
             "screentype":"WEBPAGE",
             "screenname":"Share App",
             "screendetail":"View the apps privacy information.",
