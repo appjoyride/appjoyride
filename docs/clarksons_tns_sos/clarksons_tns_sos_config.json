@@ -229,7 +229,7 @@
         },
         "rota":{
             "screentype":"WEBPAGE",
-            "screenname":"This Week’s Position Report",
+            "screenname":"North European Availability",
             "screendetail":"Up-to-date list of available vessels and 24/7 on-call rota",
             "url":"/publications_pdfs/weeklydutycircular.pdf",
             "url_relative_to_config": true,
