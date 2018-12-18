@@ -4,19 +4,19 @@
 <script>
 
 function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
+  var searchString = document.forms["myForm"]["fname"].value;
+  if (searchString == "") {
     alert("please enter some text");
     return false;
     
   }else{
-  
-  	//hide iOS keyboard
-  	document.activeElement.blur();
-  	
-
+	
  	//do search 
   	doSearch();
+  	
+  	//hide iOS keyboard
+  	document.activeElement.blur();
+  	return true;
   }
 }
 
@@ -29,7 +29,7 @@ function doSearch() {
 <body>
 
 <form name="myForm"
-      action="/result.html"
+      action="result.html"
       onsubmit="return validateForm()"
       method="post">
 
