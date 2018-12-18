@@ -9,24 +9,19 @@ function validateForm() {
     alert("please enter some text");
     return false;
     
-  }
-//   else{
-// 	
-//  	//do search 
-//   	//doSearch();
-//   	
-//   	//hide iOS keyboard
-//   	document.activeElement.blur();
-//   	return true;
-//   }
-  
+  }else{
+	
+ 	//do search 
+  	doSearch();
+  	
   	//hide iOS keyboard
   	document.activeElement.blur();
+  	return true;
+  }
 }
 
-function searchClients() {
+function doSearch() {
   //put code in here to do search
-  alert('searchClients CALLED');
 }
 
 </script>
@@ -34,10 +29,10 @@ function searchClients() {
 <body>
 
 <form name="myForm"
-      onsubmit="searchClients()"
+      onsubmit="return validateForm()"
       method="post">
 
-  Name0: <input type="text" name="fname">
+  Name: <input type="text" name="fname">
 
         <input type="submit" value="Submit">
 </form>
