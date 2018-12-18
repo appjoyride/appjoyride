@@ -4,18 +4,26 @@
 <script>
 
 function validateForm() {
+
   var searchString = document.forms["myForm"]["fname"].value;
+  
   if (searchString == "") {
     alert("please enter some text");
+    
+    //cancel the move to the next page - action="result.html"
     return false;
     
   }else{
-	
- 	//do search 
-  	doSearch();
-  	
+
   	//hide iOS keyboard
   	document.activeElement.blur();
+  	
+  	
+  	//do search 
+  	doSearch();
+  	
+  	//return true to so action="result.html" is called
+  	//may see 405 - ignore were only worried about the keyboard disappearing
   	return true;
   }
 }
@@ -27,9 +35,10 @@ function doSearch() {
 </script>
 </head>
 <body>
-
+<p>tap in field, keyboard appears,type anything, press submit, keyboard should disappear(.blur) then alert</p>
 <form name="myForm"
       onsubmit="return validateForm()"
+      action="result.html"
       method="post">
 
   Name: <input type="text" name="fname">
