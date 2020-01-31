@@ -1,8 +1,9 @@
+
 {
     "appsettings":{
         "activationcode":"012468",
         "emergencyemail":"towage@clarksons.com",
-        "version":"2.0.9",
+        "version":"3.0.0",
         "emergencynumber":"+442076455032"
     },
     "screens_order_and_visibility":[
@@ -11,6 +12,7 @@
                                     "rota",
                                     "publications_tugcircular",
                                     "publications_emergency_response_information",
+                                    "duty_broker_info",
                                     "about",
                                     "tandc",
                                     "privacypolicy",
@@ -22,6 +24,7 @@
                                             "rota",
                                             "publications_tugcircular",
                                             "publications_emergency_response_information",
+                                            "duty_broker_info",
                                             "about",
                                             "tandc",
                                             "privacypolicy",
@@ -182,6 +185,36 @@
                                                  "rowvalue":"+447831612571"
                                                  }
                                                  ]
+                             },
+                             {
+                             "tablesectiontitle":"Kate Psarrou",
+                             "tablesectionrows":[
+                                                 {
+                                                 "rowtapaction":"IMAGE",
+                                                 "rowlabel":"Image",
+                                                 "rowvalue":"kate_psarrou.jpg"
+                                                 },
+                                                 {
+                                                 "rowtapaction":"COPY",
+                                                 "rowlabel":"Name",
+                                                 "rowvalue":"Kate Psarrou"
+                                                 },
+                                                 {
+                                                 "rowtapaction":"COPY",
+                                                 "rowlabel":"Office",
+                                                 "rowvalue":"London"
+                                                 },
+                                                 {
+                                                 "rowtapaction":"EMAIL",
+                                                 "rowlabel":"Email",
+                                                 "rowvalue":"keri.libretto@clarksons.com"
+                                                 },
+                                                 {
+                                                 "rowtapaction":"PHONE",
+                                                 "rowlabel":"Mobile",
+                                                 "rowvalue":""
+                                                 }
+                                                 ]
                              }
                              ]
         },
@@ -257,10 +290,20 @@
             "url_open_in_app_browser": true,
             "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
         },
+        "duty_broker_info":{
+            "screentype":"WEBPAGE",
+            "screenname":"Duty Broker Information",
+            "screendetail":"Weekly Rota",
+            "url":"/publications_pdfs/DutyBrokerInfo.pdf",
+            "url_relative_to_config": true,
+            "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
+            "url_open_in_app_browser": true,
+            "url_open_in_app_browser_instructions":"if true, open url in browser in the app else opened by ios e.g app store url"
+        },
         "about":{
             "screentype":"WEBPAGE",
-            "screenname":"About Clarksons",
-            "screendetail":"Read more about us at clarksons.com",
+            "screenname":"About Us",
+            "screendetail":"Read more about Towage and Salvage at clarksons.com",
             "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
             "url_relative_to_config": false,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
