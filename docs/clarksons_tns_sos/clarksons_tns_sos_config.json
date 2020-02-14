@@ -1,8 +1,9 @@
+
 {
     "appsettings":{
         "activationcode":"012468",
         "emergencyemail":"towage@clarksons.com",
-        "version":"3.0.0",
+        "version":"2.0.9",
         "emergencynumber":"+442076455032"
     },
     "screens_order_and_visibility":[
@@ -184,31 +185,6 @@
                                                  "rowvalue":"+447831612571"
                                                  }
                                                  ]
-                             },
-                             {
-                             "tablesectiontitle":"Kate Psarrou",
-                             "tablesectionrows":[
-                                                 {
-                                                 "rowtapaction":"IMAGE",
-                                                 "rowlabel":"Image",
-                                                 "rowvalue":"kate_psarrou.jpg"
-                                                 },
-                                                 {
-                                                 "rowtapaction":"COPY",
-                                                 "rowlabel":"Name",
-                                                 "rowvalue":"Kate Psarrou"
-                                                 },
-                                                 {
-                                                 "rowtapaction":"COPY",
-                                                 "rowlabel":"Office",
-                                                 "rowvalue":"London"
-                                                 },
-                                                 {
-                                                 "rowtapaction":"EMAIL",
-                                                 "rowlabel":"Email",
-                                                 "rowvalue":"kate.psarrou@clarksons.com"
-                                                 }
-                                                 ]
                              }
                              ]
         },
@@ -287,7 +263,7 @@
         "duty_broker_info":{
             "screentype":"WEBPAGE",
             "screenname":"Duty Broker Information",
-            "screendetail":"Weekly Rota",
+            "screendetail":"Duty Broker Information",
             "url":"/publications_pdfs/DutyBrokerInfo.pdf",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: file is on same webserver as this config",
@@ -296,8 +272,8 @@
         },
         "about":{
             "screentype":"WEBPAGE",
-            "screenname":"About Us",
-            "screendetail":"Read more about Towage and Salvage at clarksons.com",
+            "screenname":"About Clarksons",
+            "screendetail":"Read more about us at clarksons.com",
             "url":"http://www.clarksons.com/services/broking/towage,-salvage-transportation/",
             "url_relative_to_config": false,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
@@ -328,7 +304,7 @@
         "share_app":{
             "screentype":"WEBPAGE",
             "screenname":"Share App",
-            "screendetail":"View the apps privacy information.",
+            "screendetail":"Share the app with other users",
             "url":"/share/index.html",
             "url_relative_to_config": true,
             "url_instructions":"url : should be all lowercase, no spaces in url and filename. Test url in real browser. url_relative_to_config: n/a used for local pdfs",
