@@ -69,6 +69,7 @@
 				<option value='columbiaroad'>COLUMBIA ROAD</option>
 				<option value='cityroadmcdonalds'>CITY ROAD MCDONALDS</option>
 				
+<!-- 
 <option value='lu_zone_1_temple'>lu_zone_1_temple</option>
 <option value='lu_zone_1_blackfriars'>lu_zone_1_blackfriars</option>
 <option value='lu_zone_1_mansion_house'>lu_zone_1_mansion_house</option>
@@ -547,6 +548,7 @@
 <option value='tfl_rail_zone_0_shenfield'>tfl_rail_zone_0_shenfield</option>
 <option value='oground_zone_0_woodgrange_park'>oground_zone_0_woodgrange_park</option>
 <option value='oground_zone_0_willesden_junction'>oground_zone_0_willesden_junction</option>
+ -->
 				
 				
 				
