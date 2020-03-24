@@ -23,6 +23,10 @@ locations.bloomsbury = [51.52453, -0.13390];
 locations.bank = [51.51337, -0.08898];
 locations.towerhill = [51.5080189, -0.0747825];
 locations.londonbridge = [51.5061573,-0.0906167];
+locations.columbiaroad = [51.5284168,-0.0717735];
+locations.cityroadmcdonalds = [51.5290538,-0.0952865];
+
+
 
 var args;
 
