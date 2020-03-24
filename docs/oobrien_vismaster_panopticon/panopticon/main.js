@@ -25,6 +25,10 @@ locations.towerhill = [51.5080189, -0.0747825];
 locations.londonbridge = [51.5061573,-0.0906167];
 locations.columbiaroad = [51.5284168,-0.0717735];
 locations.cityroadmcdonalds = [51.5290538,-0.0952865];
+locations.hydepark_picadilly = [51.503094,-0.153147];
+locations.hydepark_oxfordstreet = [51.512593,-0.1596869];
+locations.hydepark_exhibitionroad = [51.50173,-0.1751688];
+locations.clapham_south = [51.453853,-0.149184];
 
 
 
